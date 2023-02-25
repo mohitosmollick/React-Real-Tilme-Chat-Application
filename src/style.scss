@@ -119,11 +119,110 @@
                     }
                 }
             }
+            .search{
+                border-bottom: 1px solid gray;
+                .searchForm{
+                    padding: 10px;
+
+                    input{
+                        background-color:transparent;
+                        border: none;
+                        color:white;
+                        outline: none;
+
+                        &::placeholder{
+                            color: rgb(227, 226, 226);
+                        }
+                    }
+                }
+                .userChat{
+                    display: flex;
+                    padding: 10px;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #2f2d52;
+                    }
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .userChatInfo{
+                        span{
+                            font-size: 18px; font-weight: 500px;color: white;
+                        }
+                    }
+
+                }
+            }
+            .chats{
+                .userChat{
+                    display: flex;
+                    padding: 10px;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #2f2d52;
+                    }
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .userChatInfo{
+                        span{
+                            font-size: 18px; font-weight: 500px;color: white;
+                        }
+                        p{margin:0px; font-size: 14px; color: lightgray;}
+                     
+                    }
+
+                }
+            }
 
         }
         .chat{
             flex: 2;
+
+            .chatInfo{
+                height: 50px;
+                display: flex;
+                background-color: #5d5b8d;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+
+                span{
+
+                }
+
+                .chatIcons{
+                    display: flex;
+                    gap: 15px;
+
+                    .icon{
+                        height: 24px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .messeges{
+                padding: 10px;
+                background-color: #ddddf7;
+                display: flex;
+                align-items: center;
+                height: calc(100% -160px);
+            }
+
         }
+
     }
 
 }

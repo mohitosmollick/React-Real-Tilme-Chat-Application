@@ -2,11 +2,9 @@ import React from "react";
 
 const Messege = () =>{
     return(
-        <>
-            <>
-                HomePage
-            </>
-        </>
+        <div className="messege">
+            messege
+        </div>
     )
 }
 export default Messege;

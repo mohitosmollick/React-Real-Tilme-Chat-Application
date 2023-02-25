@@ -2,11 +2,9 @@ import React from "react";
 
 const Input = () =>{
     return(
-        <>
-            <>
-                HomePage
-            </>
-        </>
+        <div className="input">
+            input
+        </div>
     )
 }
 export default Input;
