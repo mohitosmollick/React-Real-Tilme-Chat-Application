@@ -9,6 +9,9 @@ const Messeges = () =>{
             <Messege/>
             <Messege/>
             <Messege/>
+            <Messege/>
+            <Messege/>
+            <Messege/>
         </div>
     )
 }
